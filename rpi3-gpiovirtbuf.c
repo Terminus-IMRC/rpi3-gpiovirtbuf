@@ -31,7 +31,7 @@
 static void usage(const char *progname)
 {
 	fprintf(stderr, "Usage: %s NUM\n", progname);
-	fprintf(stderr, "Set NUM to 0 to turn off the activity led and 1 to turn it on.\n");
+	fprintf(stderr, "Set NUM to 0 to turn off the activity LED and non-0 to turn it on.\n");
 	fprintf(stderr, "This program requires root privilege to map memory.\n");
 }
 
